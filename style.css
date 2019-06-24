@@ -1,3 +1,27 @@
 * {
   font-family: 'Assistant', sans-serif;
 }
+
+.float_left {
+  float: left;
+}
+
+main {
+  height: 85vh;
+}
+
+.menu_sx {
+  width: 200px;
+  background-color: #000;
+  height: 100%;
+}
+
+.contenuti {
+  background-image: linear-gradient(to right, #0B0703 , #000);
+  height: 100%;
+}
+
+footer {
+  height: 15vh;
+  background-color: #282828;
+}
