@@ -27,7 +27,7 @@ footer {
 }
 
 
-/* Caratteristiche aside (menù-sx) */
+/* Caratteristiche "Aside" (menù-sx) */
 
 aside {
   width: 230px;
@@ -95,4 +95,33 @@ aside {
 }
 
 
-/* Caratteristiche contenuti */
+/* Caratteristiche "Contenuti" */
+
+  /* Caratteristiche "menu_top" */
+
+.menu_top {
+  display: flex;
+  justify-content: space-around;
+  margin: 35px 200px;
+  font-weight: bold;
+  font-size: 1.1em;
+  flex-wrap: wrap;
+}
+
+.menu_top a {
+  color: grey;
+  text-decoration: none;
+  margin: 5px 10px;
+  white-space:nowrap;
+}
+
+.menu_top a:hover {
+  color: #fff;
+}
+
+#in_evidenza {
+  color: #fff;
+  border-bottom: 2px solid #1ED760;
+}
+
+  /* Caratteristiche "creato_per_te" */
