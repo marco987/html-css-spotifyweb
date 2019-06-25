@@ -1,3 +1,5 @@
+/* Caratteristiche generali */
+
 * {
   font-family: 'Assistant', sans-serif;
 }
@@ -6,22 +8,91 @@
   float: left;
 }
 
+
+/* Dimensione blocchi principali */
+
 main {
   height: 85vh;
-}
-
-.menu_sx {
-  width: 200px;
-  background-color: #000;
-  height: 100%;
 }
 
 .contenuti {
   background-image: linear-gradient(to right, #0B0703 , #000);
   height: 100%;
+  overflow: auto;
 }
 
 footer {
   height: 15vh;
   background-color: #282828;
 }
+
+
+/* Caratteristiche aside (menù-sx) */
+
+aside {
+  width: 230px;
+  background-color: #000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link_top {
+  padding: 10px 0 0 15px;
+}
+
+#logo {
+  width: 80%;
+}
+
+.voce_menu_sx {
+  margin: 10px 0 -5px 10px;
+  height: 40px;
+  color: grey;
+}
+
+.voce_menu_sx span {
+  margin-left: 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.home.voce_menu_sx {
+  color: #fff;
+}
+
+.voce_menu_sx:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.link_bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.link_bottom button {
+  width: 180px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  height: 35px;
+  border: 0;
+  font-weight: bold;
+  color: #000;
+}
+
+#btn_accedi {
+  background-color: #141414;
+  color: #fff;
+  border: solid 2px #fff;
+}
+
+.link_bottom a {
+  color: grey;
+}
+
+
+/* Caratteristiche contenuti */
