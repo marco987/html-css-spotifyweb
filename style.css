@@ -164,3 +164,43 @@ aside {
 }
 
  /* Caratteristiche "Footer" */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.col_album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer img {
+  width: 10vh;
+}
+
+.col_traccia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.controlli {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.controlli img {
+  width: 20px;
+  margin: 0 10px;
+}
+
+.col_volume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
