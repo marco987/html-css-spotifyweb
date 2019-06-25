@@ -124,13 +124,14 @@ aside {
   border-bottom: 2px solid #1ED760;
 }
 
-  /* Caratteristiche "creato_per_te" */
+  /* Caratteristiche "creato_per_te",
+  "riprodotto_di_recente" e "classifica" */
 
-.creato_per_te {
-  margin: 50px 0 100px 50px;
+.sezione {
+  margin: 50px 0 10px 50px;
 }
 
-.creato_per_te h1 {
+.sezione h1 {
   color: #fff;
   font-weight: bold;
 }
@@ -161,3 +162,5 @@ aside {
   font-weight: bold;
   font-size: 1.1em;
 }
+
+ /* Caratteristiche "Footer" */
