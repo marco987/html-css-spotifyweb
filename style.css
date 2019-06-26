@@ -29,7 +29,7 @@ footer {
 
 /* Caratteristiche "Aside" (menù-sx) */
 
-aside {
+.menu_sx {
   width: 230px;
   background-color: #09140A;
   height: 100%;
@@ -92,6 +92,58 @@ aside {
 
 .link_bottom a {
   color: grey;
+}
+
+
+/* "Aside" NASCOSTO */
+
+.menu_sx_nascosto {
+  width: 50px;
+  background-color: #09140A;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#logosolo {
+  width: 40px;
+  margin: 20px auto;
+}
+
+.link_top_nascosto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link_top_nascosto img {
+  width: 24px;
+  margin: 10px auto;
+}
+
+.link_bottom_nascosto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link_bottom_nascosto img {
+  width: 24px;
+  margin: 10px auto;
+}
+
+.nascosto {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  .menu_sx {
+    display: none;
+  }
+  .menu_sx_nascosto {
+    display: flex;
+  }
 }
 
 
